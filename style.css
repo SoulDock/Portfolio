@@ -40,7 +40,7 @@
                print-text 1s steps(16);
 }
 /* CONTENT SECTION */
-.skills_section{
+.content_container{
     width: 1220px;
     margin: 0 auto;
 }
@@ -67,12 +67,18 @@
 .skill{
     align-items: center;
     justify-content: center;
+    font-size: 1.2rem;
 }
 .skill_logo{
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+
+/* PROJECTS */
+.projects{
+    height: 500px;
 }
 /* FOOTER */
 .footer{
