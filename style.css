@@ -80,6 +80,39 @@
 .projects{
     height: 500px;
 }
+/* ABOUT ME */
+.aboutme{
+    margin-bottom: 100px;
+}
+.aboutme_contacts{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.aboutme_contacts_links{
+    max-width: 300px;
+    padding: 10px;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.aboutme_text{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.animated_arrow{
+    animation: mover .3s infinite  alternate;
+}
+.link_icon{
+    text-decoration: none;
+    width: 45px;
+}
+
 /* FOOTER */
 .footer{
     margin: 0 100px;
@@ -114,6 +147,7 @@
 .skills_wrapper-web,
 .skill,
 .skill_logo,
+.aboutme_contacts,
 .footer,
 .contact,
 .contact_title{
@@ -136,4 +170,8 @@
     }
 }
 
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
 
