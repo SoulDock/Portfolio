@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.global_container{
+    width: 100vw;
+    height: 100vh;
+
+    overflow-y: scroll;
+
+    background: url("./src/planet.jpg");
+    background-size: cover;
+
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TITLE SECTION */
+.title_section{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.pp{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #000000;
+    box-shadow: 0px 0px 50px #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title_name{
+    font-size: 3rem;
+    font-family: 'Monoton', cursive;
+    text-shadow: 0px 0px 20px #000000;
+}
+.title_subtext{
+    text-shadow: 0px 0px 20px #000000;
+}
+
+
