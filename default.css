@@ -8,7 +8,9 @@
 
 body{
   font-family: 'Share Tech Mono', monospace;
+  scroll-behavior: smooth;
   background-color: #000;
+  color: #fff;
 }
 
 body,
@@ -26,4 +28,19 @@ blockquote,
 dl,
 dd {
   margin: 0;
+}
+
+.icon{
+  max-width: 30px;
+}
+
+a{
+  color: #2062be;
+  text-decoration: none;
+  transition: .2s linear;
+}
+a:hover{
+  text-decoration: underline;
+  color: #368aff;
+  cursor: pointer;
 }

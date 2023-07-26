@@ -1,16 +1,12 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 .global_container{
     width: 100vw;
     height: 100vh;
 
-    overflow-y: scroll;
-
     background: url("./src/planet.jpg");
     background-size: cover;
-
-    color: #fff;
 
     display: flex;
     justify-content: center;
@@ -41,6 +37,35 @@
 }
 .title_subtext{
     text-shadow: 0px 0px 20px #000000;
+}
+
+/* FOOTER */
+.footer{
+    margin: 0 100px;
+    padding: 10px;
+    border-top: 2px solid #ffffff; 
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.footer_contacts{
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding: 20px 40px;
+    color: #000000;
+}
+.contact{
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+}
+.contact_title{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 
