@@ -9,7 +9,6 @@
     background-size: cover;
     overflow-y: scroll;
 }
-
 /* TITLE SECTION */
 .title_section{
     align-items: center;
@@ -31,10 +30,23 @@
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid #ffffff;
+    opacity: 0;
+}
+.title_subtext--animated{
+    opacity: 1;
     animation: flashing-border 0.75s step-end infinite,
                print-text 1s steps(23);
 }
-
+/* CONTENT SECTION */
+.content_section{
+    max-width: 1220px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.content_title{
+    color: #ffea00;
+    animation: alert 1s ease-in-out infinite;
+}
 /* FOOTER */
 .footer{
     margin: 0 100px;
@@ -62,6 +74,7 @@
 }
 
 /* COMMON PROPERTIES */
+.loader,
 .title_section,
 .title_wrapper,
 .footer,
@@ -84,5 +97,16 @@
 @keyframes print-text{
     from{
         width: 0;
+    }
+}
+
+@keyframes alert{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }100%{
+        opacity: 1;
     }
 }
