@@ -84,15 +84,6 @@
 .aboutme{
     margin-bottom: 100px;
 }
-.aboutme_contacts{
-    max-width: 500px;
-    margin: 0 auto;
-    margin-top: 100px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
 .aboutme_contacts_links{
     max-width: 300px;
     padding: 10px;
@@ -123,8 +114,8 @@
 }
 .footer_contacts{
     background-color: #ffffff;
-    border-radius: 100px;
-    padding: 20px 40px;
+    border-radius: 20px;
+    padding: 10px;
     color: #000000;
 }
 .contact{
@@ -139,7 +130,7 @@
     gap: 5px;
 }
 
-/* COMMON PROPERTIES */
+/* FLEX PROPERTIES */
 .loader,
 .title_section,
 .title_wrapper,
@@ -147,12 +138,32 @@
 .skills_wrapper-web,
 .skill,
 .skill_logo,
-.aboutme_contacts,
+.contacts_wrapper,
 .footer,
 .contact,
 .contact_title{
     display: flex;
 }
+
+/* CONTACTS */
+.contacts{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    color: #000000;
+}
+
+.contacts_wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
 /* ANIMATIONS */
 @keyframes flashing-border{
     0%{
@@ -174,4 +185,3 @@
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
 }
-
